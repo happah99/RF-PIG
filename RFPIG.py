@@ -1,13 +1,10 @@
 import os
 import math
+import json
 
+foodPlaces = json.load(open('foodPlaces.json'))
 divider = "=" * 80
 subDivider = "-" * 80
-
-fastL = ["mcD", "kfc", "pepes", "gdk"]
-midL = ["franzos", "nandos", "pho"]
-fancyL = ["saharaG", "gokyuzu", "hakkasan"]
-dessertL = ["creams", "amorino", "bubbleT"]
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -27,6 +24,15 @@ def interrogate(punchLine, questions):
     print(divider)
     choice = input("Please type in your choice here -> ")
     return choice 
+
+def tierFilter(tier):
+    filtered = []
+    
+    for x in foodPlaces:
+        if x["tier"] == tier:
+            filtered.append(x)
+    
+    return filtered
 
 def home():
     clear()
