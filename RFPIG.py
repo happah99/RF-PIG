@@ -4,7 +4,7 @@ import math
 divider = "=" * 80
 subDivider = "-" * 80
 
-fastL = ["mcD","kfc","pepes", "gdk"]
+fastL = ["mcD", "kfc", "pepes", "gdk"]
 midL = ["franzos", "nandos", "pho"]
 fancyL = ["saharaG", "gokyuzu", "hakkasan"]
 dessertL = ["creams", "amorino", "bubbleT"]
@@ -46,28 +46,19 @@ def home():
     page1()
 
 def page1():
-    os.system("clear")
-
-    # print(subDivider)
-    # print("""The least you could do is choose what tier food you want:
-    # \nPress 1 for fast food
-    # \nPress 2 for mediocre food
-    # \nPress 3 for faaaancy food""")
-    # print(subDivider)
-
-    # foodChoice = input("\nPlease type in your choice here -> ")
-
-    question("The least you could do is choose what tier food you want:", ["test", "test2"])
-
-    if foodChoice == "1":
-        fastF()
-
-    elif foodChoice == "2":
-        midF()
-
-    elif foodChoice == "3":
-        fancyF()
+    foodChoice = question(
+        "The least you could do is choose what tier food you want:", 
+        ["fast food", "mediocre food", "faaaancy food"])
     
+    if foodChoice == "1":
+        for x in fastL:
+            print(x)
+    elif foodChoice == "2":
+       for x in midL:
+            print(x)
+    elif foodChoice == "3":
+        for x in midL:
+            print(x)
     else:
         os.system("clear")
         print("\nYou must have misunderstood, excuse you,")
