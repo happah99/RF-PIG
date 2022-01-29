@@ -1,13 +1,11 @@
 import os
 import math
+import json
+
+foodPlaces = json.load(open('foodPlaces.json'))
 
 divider = "=" * 80
 subDivider = "-" * 80
-
-fastL = ["mcD", "kfc", "pepes", "gdk"]
-midL = ["franzos", "nandos", "pho"]
-fancyL = ["saharaG", "gokyuzu", "hakkasan"]
-dessertL = ["creams", "amorino", "bubbleT"]
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -42,7 +40,7 @@ def home():
     
     print(divider)
     print("""Welcome to the Random Food Place Idea Generator,
-    Hopefully that name isn't the only mouthful you'll be experiencing today.""")
+    Hopefully that Name isn't the only mouthful you'll be experiencing today.""")
     print(divider)
 
     input("\nPlease press ENTER to continue... ")
@@ -50,13 +48,13 @@ def home():
 
 def page1():
     foodChoice = interrogate(
-        "The least you could do is choose what tier food you want:", 
+        "The least you could do is choose what Tier food you want:", 
         ["fast food", "mediocre food", "faaaancy food"])
     
     clear()
     if foodChoice == "1":
-        for x in fastL:
-            print(x)
+        print(foodPlaces[2]['name'])
+        print(foodPlaces[2]['price_range'])
     elif foodChoice == "2":
        for x in midL:
             print(x)

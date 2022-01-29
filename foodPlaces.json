@@ -1,0 +1,33 @@
+[
+    {
+        "id": 0,
+        "name": "MacDonalds",
+        "tier": "Fast Food",
+        "price_range": "£"
+    },
+    {
+        "id": 1,
+        "name": "Nandoes",
+        "tier": "Mid food",
+        "price_range": "££"
+    },
+    {
+        "id": 2,
+        "name": "Saharah Grill",
+        "tier": "Faaaancy food",
+        "price_range": "£££"
+    },
+    {
+        "id": 3,
+        "name": "Hakassan",
+        "tier": "Faaaancy food",
+        "price_range": "££££££"
+    },
+    {
+        "id": 4,
+        "name": "KFC",
+        "tier": "Fast food",
+        "price_range": "££"
+    }
+]
+
