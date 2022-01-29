@@ -10,6 +10,15 @@ subDivider = "-" * 80
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 
+def filterByTier(tier):
+    filtered = []
+
+    for x in foodPlaces:
+        if x['tier'] == tier:
+            filtered.append(x)
+            
+    return filtered
+
 def interrogate(punchLine, questions):
     clear()
     choiceCounter = 0
@@ -53,8 +62,7 @@ def page1():
     
     clear()
     if foodChoice == "1":
-        print(foodPlaces[2]['name'])
-        print(foodPlaces[2]['price_range'])
+       filterByTier("Fancy food")
     elif foodChoice == "2":
        for x in midL:
             print(x)

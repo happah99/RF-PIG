@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "MacDonalds",
-        "tier": "Fast Food",
+        "tier": "Fast food",
         "price_range": "£"
     },
     {
@@ -14,13 +14,13 @@
     {
         "id": 2,
         "name": "Saharah Grill",
-        "tier": "Faaaancy food",
+        "tier": "Fancy food",
         "price_range": "£££"
     },
     {
         "id": 3,
         "name": "Hakassan",
-        "tier": "Faaaancy food",
+        "tier": "Fancy food",
         "price_range": "££££££"
     },
     {
