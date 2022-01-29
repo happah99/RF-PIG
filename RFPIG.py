@@ -42,7 +42,7 @@ def home():
     
     print(divider)
     print("""Welcome to the Random Food Place Idea Generator,
-    Hopefully that name isn't the only mouthful you'll be experiencing today.""")
+Hopefully that name isn't the only mouthful you'll be experiencing today.""")
     print(divider)
 
     input("\nPlease press ENTER to continue... ")
