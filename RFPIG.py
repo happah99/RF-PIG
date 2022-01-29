@@ -26,7 +26,7 @@ def home():
     
     print(divider)
     print("""Welcome to the Random Food Place Idea Generator,
-Hopefully that name isn't the only mouthful you'll be experiencing today.""")
+    Hopefully that name isn't the only mouthful you'll be experiencing today.""")
     print(divider)
 
     input("\nPlease press ENTER to continue... ")
@@ -37,9 +37,9 @@ def page1():
 
     print(subDivider)
     print("""The least you could do is choose what tier food you want:
-\nPress 1 for fast food
-\nPress 2 for mediocre food
-\nPress 3 for faaaancy food""")
+    \nPress 1 for fast food
+    \nPress 2 for mediocre food
+    \nPress 3 for faaaancy food""")
     print(subDivider)
 
     foodChoice = input("\nPlease type in your choice here -> ")
