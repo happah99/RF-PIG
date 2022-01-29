@@ -9,8 +9,11 @@ midL = ["franzos", "nandos", "pho"]
 fancyL = ["saharaG", "gokyuzu", "hakkasan"]
 dessertL = ["creams", "amorino", "bubbleT"]
 
-def interrogate(punchLine, questions):
+def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
+
+def interrogate(punchLine, questions):
+    clear()
     choiceCounter = 0
 
     print(divider)
@@ -26,7 +29,7 @@ def interrogate(punchLine, questions):
     return choice 
 
 def home():
-    os.system('cls' if os.name == 'nt' else 'clear')
+    clear()
 
     print("""
  ___         ___        ___         ___          ___ 
@@ -50,6 +53,7 @@ def page1():
         "The least you could do is choose what tier food you want:", 
         ["fast food", "mediocre food", "faaaancy food"])
     
+    clear()
     if foodChoice == "1":
         for x in fastL:
             print(x)
@@ -60,7 +64,7 @@ def page1():
         for x in midL:
             print(x)
     else:
-        os.system('cls' if os.name == 'nt' else 'clear')
+        clear()
         print("\nYou must have misunderstood, excuse you,")
         input("\nPlease press ENTER to continue... ")
         page1()
