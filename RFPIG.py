@@ -1,8 +1,10 @@
 import os
 import math
 import json
+import textwrap
 
 foodPlaces = json.load(open('foodPlaces.json'))
+wrapper = textwrap.TextWrapper(width=80)
 
 divider = "=" * 80
 subDivider = "-" * 80
@@ -17,6 +19,17 @@ def filterFoodPlaces(tier, priceRange, isDessert):
         if x['tier'] == tier and x['price_range'] == priceRange and x['is_dessert'] == isDessert:
             filtered.append(x)
     return filtered
+
+def formattedOutput(filtered):
+    for x in filtered:
+        desc = wrapper.fill(text=x["desc"])
+
+        print("\n" + divider)
+        print("Name: " + x['name'])
+        print(subDivider)
+        print("Tier: " + x['tier'])
+        print("Price Range: " + x['price_range'])
+        print("Description: \n" + desc)
 
 def interrogate(punchLine, questions):
     clear()
@@ -62,7 +75,7 @@ def page1():
     
     clear()
     if foodChoice == "1":
-        print(filterFoodPlaces("Mediocre food", "Mid", False))
+        print(formattedOutput(foodPlaces))
     elif foodChoice == "2":
        for x in midL:
             print(x)
@@ -74,5 +87,4 @@ def page1():
         print("\nYou must have misunderstood, excuse you,")
         input("\nPlease press ENTER to continue... ")
         page1()
-
 home()
