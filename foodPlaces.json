@@ -3,31 +3,49 @@
         "id": 0,
         "name": "MacDonalds",
         "tier": "Fast food",
-        "price_range": "£"
+        "price_range": "Low",
+        "is_dessert": false
     },
     {
         "id": 1,
         "name": "Nandoes",
-        "tier": "Mid food",
-        "price_range": "££"
+        "tier": "Mediocre food",
+        "price_range": "Mid",
+        "is_dessert": false
     },
     {
         "id": 2,
         "name": "Saharah Grill",
         "tier": "Fancy food",
-        "price_range": "£££"
+        "price_range": "High",
+        "is_dessert": false
     },
     {
         "id": 3,
         "name": "Hakassan",
         "tier": "Fancy food",
-        "price_range": "££££££"
+        "price_range": "Royal",
+        "is_dessert": false
     },
     {
         "id": 4,
         "name": "KFC",
         "tier": "Fast food",
-        "price_range": "££"
+        "price_range": "Low",
+        "is_dessert": false
+    },
+    {
+        "id": 5,
+        "name": "Pho",
+        "tier": "Mediocre food",
+        "price_range": "Mid",
+        "is_dessert": false
+    },
+    {
+        "id": 6,
+        "name": "Amorino",
+        "tier": "Fancy food",
+        "price_range": "Mid",
+        "is_dessert": true
     }
 ]
-
