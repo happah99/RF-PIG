@@ -1,40 +1,58 @@
 [
-
     {
-        "id": 0,
         "name": "MacDonalds",
         "tier": "Fast food",
-        "priceRange": "£"
+        "priceRange": "Low",
+        "isDessert": false,
+        "desc": "The price of MacDonanlds reflects its quality."
     },
     {
-        "id": 1,
         "name": "Nandos",
-        "tier": "Mid food",
-        "priceRange": "£££"
+        "tier": "Mediocre food",
+        "priceRange": "Mid",
+        "isDessert": false,
+        "desc": "Nandos serves the kind of food that makes you want to dance after finishing your meal, the thighs have always been exceptionally juicy."
     },
     {
-        "id": 2,
         "name": "Sahara grill",
         "tier": "Fancy food",
-        "priceRange": "£££££"
+        "priceRange": "High",
+        "isDessert": false,
+        "desc": "I would have the lambchops as my last meal because I wouldnt be able to sustain my finances after a portion."
     },
     {
-        "id": 3,
         "name": "Hakassan",
         "tier": "Fancy food",
-        "priceRange": "££££££"
+        "priceRange": "Royal",
+        "isDessert": false,
+        "desc": "Your wallet will never forgive you and you'll always wish you had stuck to MacDonalds."
     },
     {
-        "id": 4,
         "name": "KFC",
         "tier": "Fast food",
-        "priceRange": "££"
+        "priceRange": "Low",
+        "isDessert": false,
+        "desc": "One word: Gravy."
     },
     {
-        "id": 5,
         "name": "Pepes",
         "tier": "Fast food",
-        "priceRange": "£"
+        "priceRange": "Low",
+        "isDessert": false,
+        "desc": "The chicken and rice is to die for."
+    },
+    {
+        "name": "Pho",
+        "tier": "Mediocre food",
+        "priceRange": "Mid",
+        "isDessert": false,
+        "desc": "Pho offers all of the beautiful experiences of Vietnam including the surprises...of flavor."
+    },
+    {
+        "name": "Amorino",
+        "tier": "Fancy food",
+        "priceRange": "Mid",
+        "isDessert": true,
+        "desc": "This is overall my favorite Italian dessert place."
     }
-
 ]
