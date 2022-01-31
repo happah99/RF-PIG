@@ -74,6 +74,7 @@ def page1():
         ["fast food", "mediocre food", "faaaancy food"])
     
     clear()
+
     if foodChoice == "1":
         print(formattedOutput(foodPlaces))
     elif foodChoice == "2":
@@ -87,4 +88,5 @@ def page1():
         print("\nYou must have misunderstood, excuse you,")
         input("\nPlease press ENTER to continue... ")
         page1()
+
 home()

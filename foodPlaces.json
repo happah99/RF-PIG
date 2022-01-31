@@ -1,6 +1,5 @@
 [
     {
-        "id": 0,
         "name": "MacDonalds",
         "tier": "Fast food",
         "price_range": "Low",
@@ -8,7 +7,6 @@
         "desc": "McDonald's is the world's largest restaurant chain by revenue,12 serving over 69 million customers daily in over 100 countries13 across 37,855 outlets as of 2018.1415 Although McDonald's is best known for its hamburgers, cheeseburgers and french fries, they feature chicken products, breakfast items, soft drinks, milkshakes, wraps, and desserts. In response to changing consumer tastes and a negative backlash because of the unhealthiness of their food,16 the company has added to its menu salads, fish, smoothies, and fruit. The McDonald's Corporation revenues come from the rent, royalties, and fees paid by the franchisees, as well as sales in company-operated restaurants. According to two reports published in 2018, McDonald's is the world's second-largest private employer with 1.7 million employees (behind Walmart with 2.3 million employees).1718 As of 2020, McDonald's has the ninth-highest global brand valuation.19"
     },
     {
-        "id": 1,
         "name": "Nandoes",
         "tier": "Mediocre food",
         "price_range": "Mid",
@@ -16,7 +14,6 @@
         "desc": "Nandinoes is a trusted and remains a go to mid tier food places, the thighs remain exceptionally juicy - the pita remain exceptionally hole-less and the chips remain exceptionally peri-salted"
     },
     {
-        "id": 2,
         "name": "Saharah Grill",
         "tier": "Fancy food",
         "price_range": "High",
@@ -24,7 +21,6 @@
         "desc": "Haven't been there, don't know. Apparently they have good lamp chops"
     },
     {
-        "id": 3,
         "name": "Hakassan",
         "tier": "Fancy food",
         "price_range": "Royal",
@@ -32,7 +28,6 @@
         "desc": "Your wallet will never forgive you and you will always wish you had stuck to Macdonalds"
     },
     {
-        "id": 4,
         "name": "KFC",
         "tier": "Fast food",
         "price_range": "Low",
@@ -40,7 +35,6 @@
         "desc": "One Word: Gravy."
     },
     {
-        "id": 5,
         "name": "Pho",
         "tier": "Mediocre food",
         "price_range": "Mid",
@@ -48,7 +42,6 @@
         "desc": "Pho offers a truly exotic selection of meats and surprises beinging adventure and excitement to your westernised tastebuds"
     },
     {
-        "id": 6,
         "name": "Amorino",
         "tier": "Fancy food",
         "price_range": "Mid",
